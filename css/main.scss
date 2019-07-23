@@ -164,16 +164,61 @@ body {
             .history-title{
                 text-decoration: underline;
                 text-decoration-color: color(main_color_one);
+
+                @include desktop {
+                    text-decoration: underline;
+                    text-decoration-color: color(main_color_one);
+                }
+
+                @include desktop_large {
+                    text-decoration: underline;
+                    text-decoration-color: color(main_color_one);
+                }
+
+                @include desktop_largest {
+                    text-decoration: underline;
+                    text-decoration-color: color(main_color_one);
+                }
             }
 
             .film-title{
                 text-decoration: underline;
                 text-decoration-color: color(main_color_two);
+
+                @include desktop {
+                    text-decoration: underline;
+                    text-decoration-color: color(main_color_two);
+                }
+
+                @include desktop_large {
+                    text-decoration: underline;
+                    text-decoration-color: color(main_color_two);
+                }
+
+                @include desktop_largest {
+                    text-decoration: underline;
+                    text-decoration-color: color(main_color_two);
+                }
             }
 
             .food-title{
                 text-decoration: underline;
                 text-decoration-color: color(main_color_three);
+
+                @include desktop {
+                    text-decoration: underline;
+                    text-decoration-color: color(main_color_three);
+                }
+
+                @include desktop_large {
+                    text-decoration: underline;
+                    text-decoration-color: color(main_color_three);
+                }
+
+                @include desktop_largest {
+                    text-decoration: underline;
+                    text-decoration-color: color(main_color_three);
+                }
             }
 
             .btn-dark {

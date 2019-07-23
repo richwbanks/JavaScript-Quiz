@@ -161,16 +161,88 @@ body .context .button-container .history-title {
           text-decoration-color: #F8E9A1;
 }
 
+@media (min-width: 576px) {
+  body .context .button-container .history-title {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #F8E9A1;
+            text-decoration-color: #F8E9A1;
+  }
+}
+
+@media (min-width: 1000px) {
+  body .context .button-container .history-title {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #F8E9A1;
+            text-decoration-color: #F8E9A1;
+  }
+}
+
+@media (min-width: 1500px) {
+  body .context .button-container .history-title {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #F8E9A1;
+            text-decoration-color: #F8E9A1;
+  }
+}
+
 body .context .button-container .film-title {
   text-decoration: underline;
   -webkit-text-decoration-color: #F76C6C;
           text-decoration-color: #F76C6C;
 }
 
+@media (min-width: 576px) {
+  body .context .button-container .film-title {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #F76C6C;
+            text-decoration-color: #F76C6C;
+  }
+}
+
+@media (min-width: 1000px) {
+  body .context .button-container .film-title {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #F76C6C;
+            text-decoration-color: #F76C6C;
+  }
+}
+
+@media (min-width: 1500px) {
+  body .context .button-container .film-title {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #F76C6C;
+            text-decoration-color: #F76C6C;
+  }
+}
+
 body .context .button-container .food-title {
   text-decoration: underline;
   -webkit-text-decoration-color: #41539c;
           text-decoration-color: #41539c;
+}
+
+@media (min-width: 576px) {
+  body .context .button-container .food-title {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #41539c;
+            text-decoration-color: #41539c;
+  }
+}
+
+@media (min-width: 1000px) {
+  body .context .button-container .food-title {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #41539c;
+            text-decoration-color: #41539c;
+  }
+}
+
+@media (min-width: 1500px) {
+  body .context .button-container .food-title {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #41539c;
+            text-decoration-color: #41539c;
+  }
 }
 
 body .context .button-container .btn-dark {
