@@ -26,6 +26,14 @@ $desktop_large: 1000px;
     }
 }
 
+$desktop_largest: 1500px;
+
+@mixin desktop_largest {
+    @media (min-width: #{$desktop_largest}) {
+        @content; 
+    }
+}
+
 body {
     padding-bottom: 20px;
     margin: 0;
@@ -144,6 +152,11 @@ body {
 
                 @include desktop_large {
                     font-size: 70px;
+                    color: color(accents);
+                }
+
+                @include desktop_largest {
+                    font-size: 110px;
                     color: color(accents);
                 }
             }

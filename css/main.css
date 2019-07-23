@@ -148,6 +148,13 @@ body .context .button-container h3 {
   }
 }
 
+@media (min-width: 1500px) {
+  body .context .button-container h3 {
+    font-size: 110px;
+    color: #1e274e;
+  }
+}
+
 body .context .button-container .history-title {
   text-decoration: underline;
   -webkit-text-decoration-color: #F8E9A1;
